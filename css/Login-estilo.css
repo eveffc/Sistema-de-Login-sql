@@ -1,0 +1,59 @@
+a:link, a:visited{
+	color:#3AA436;
+	font-size: 15px;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+/*Pagina login*/
+#login{
+	display: flex;
+	height: 90vh;
+	justify-content: center;
+}
+.logo h1 img{
+	height: 80px;
+	display: block;
+	margin: auto;
+	padding-top: 40px;
+}
+
+.box{
+	background: #000000;
+	width: 400px;
+	height: 300px;
+	border-radius: 80px 0;
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+}
+.input{
+	padding-top: 45px;
+}
+.data{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	margin: auto;
+	padding-top: 20px;
+}
+.recovery{
+	padding-top: 10px;
+	padding-left: 75px;
+}
+.botton .submit{
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+	border-radius: 20px;
+	width: 100px;
+	height: 25px;
+	color: #ffffff;
+	background-color: #3AA436;
+}
+.usser{
+	text-align: center;
+	padding-top: 5px;
+}

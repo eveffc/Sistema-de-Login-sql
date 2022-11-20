@@ -1,0 +1,51 @@
+#recovery-pass{
+	display: flex;
+	height: 95vh;
+	justify-content: center;
+}
+.boxpass{
+	background: #000000;
+	display: block;
+	margin: auto;
+	padding: 40px;
+	border-radius: 80px;
+}
+.boxpass h2{
+	font-size: 20px;
+}
+label h3{
+	font-size: 13px;
+	font-family: sans-serif;
+}
+.bar{
+	float: left;
+	display: inline;
+}
+.bar input{
+	width: 350px;
+	height: 25px;
+}
+.bar button{
+	background-color: #3AA436;
+	color: #ffffff;
+	height: 30px;
+	width: 70px;
+	align-items: center;
+	border-radius: 0 20px 0 20px;
+}
+.button2{
+	float: left;
+	margin-left: 183px;
+	padding-top: 30px;
+	justify-self: center;
+}
+	.button2 a {
+		color:#3AA436;
+		text-decoration: none;
+	}
+	.button2 a:hover{
+		text-decoration: underline;
+	}
+footer{
+	margin-top: 20px;
+}

@@ -1,0 +1,8 @@
+footer{
+	float: left;
+	display: block;
+	width: 98.8%;
+	text-align: center;
+	padding: 8px;
+	background-color: #000000;
+}
