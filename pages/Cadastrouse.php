@@ -9,6 +9,6 @@
 	$sql_cadastrosl = "INSERT INTO tb_usuarios (nome, sobrenome, usuario, email, senha)
 						values("$nome", "$sobrenome", "$usuario", "$email", "$senha");
 	$cadastro = msqli_query($con, $sql_cadastrosl);
-	$linha_afetada = mysqli_affected_rows($conector);
+	
 	mysqli_close($con;)
 ?>
