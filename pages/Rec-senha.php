@@ -84,7 +84,7 @@
 							<h6>Informe o E-mail de recuperação para enviarmos uma nova senha.</h6>
 							<div class="bar"><input type="email" name="email" required></div>
 							<div class="bar"><button type="submit" value="enviar" class="button">Enviar</button></div>
-							<a href="index.html">Cancelar</a>
+							<a href="index.php">Cancelar</a>
 						</form>
 					</div>
 				</div>

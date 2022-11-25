@@ -35,7 +35,7 @@
         .box {
             float: right;
             background: #000000;
-            height: 78%;
+            height: 50%;
             display: block;
             margin-top:70px;
             margin-right: 90px;

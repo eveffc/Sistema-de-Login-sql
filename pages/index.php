@@ -3,13 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
-		<link rel="stylesheet" type="text/css" href="css/estilizacaobase.css"/>
-		<link rel="stylesheet" type="text/css" href="css/rodape.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/estilizacaobase.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/rodape.css"/>
 		<link rel="preconnect" href="https://fonts.googleapis.com"/> <!~~fontes~~>
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
-		<link rel="shortcut icon" href= "img/icon.png">
+		<link rel="shortcut icon" href= "../img/icon.png">
 		<title>Sitema de Login | Inplementação do banco de dados</title>
 
 		<style>
@@ -85,7 +85,7 @@
 	<body>
 		<div id="Login">
 			<header>
-				<div class="logo"><h1><a><img src="img/login-logo.png"/></a></h1></div> 
+				<div class="logo"><h1><a><img src="../img/login-logo.png"/></a></h1></div> 
 			    	<div class="box">
 					    <form>
 						    <div class="input">
@@ -98,7 +98,7 @@
 							        <input type="password" id="password" name="senha" required />
 						        </div>
 						        <!~~ links e botões~~!>
-						        <div class="recovery"><a href="pages/Rec-senha.html">Esqueceu a senha?</a></div>
+						        <div class="recovery"><a href="Rec-senha.php">Esqueceu a senha?</a></div>
 						        <div class="botton"><input type="submit" value="Login" class="submit" name="Login"/></div>
 						        <div class="usser"><a href="Novo.php">Criar conta</a></div>
                             </div>
